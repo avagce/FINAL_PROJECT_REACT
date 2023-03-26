@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import CreateBoard from './components/CreateBoard';
 import ReadBoard from './components/ReadBoard';
+import tourpromotion from './components/tourpromotion';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
               <Route path = "/board" component = {BoardList}></Route>
               <Route path="/create-board/:bno" component={CreateBoard }></Route>
               <Route path="/read-board/:bno" component={ReadBoard}></Route>
+              <Route path="/tourpromotion" component={tourpromotion}></Route>
             </Switch>
             <Footer />
           </div>

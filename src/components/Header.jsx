@@ -36,6 +36,7 @@ constructor(props){
                     <NavDropdown.Item href="http://localhost:9008/tourcartlist.do">카트리스트</NavDropdown.Item>
                     <NavDropdown.Item href="http://localhost:9008/tourpaylist.do">결제 리스트</NavDropdown.Item>
                     <NavDropdown.Item href="http://localhost:9008/tourpaylist.do">데이터 업데이트</NavDropdown.Item>
+                    <NavDropdown.Item href="http://localhost:3000/tourpromotion">홍보페이지</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                   </NavDropdown>
